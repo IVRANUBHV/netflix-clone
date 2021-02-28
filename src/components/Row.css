@@ -5,12 +5,12 @@
 .poster {
   object-fit: contain;
   width: 100%;
-  max-height: 100px;
+  max-height: 120px;
   transition: transform 450ms;
   margin-right: 10px;
 }
 .poster-xl {
-  max-height: 250px;
+  max-height: 300px;
 }
 .poster:hover {
   transform: scale(1.08);
