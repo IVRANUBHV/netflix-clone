@@ -2,7 +2,7 @@
 
 A Netflix Clone that can be viewed [here](https://netflix-clone-3f0b8.web.app/)
 
-# About
+## About
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
