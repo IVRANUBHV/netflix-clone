@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+
+  align-items: center;
+  z-index: 1;
+  justify-content: space-between; /*wont work directicly as widht of container 
+                                 is equal to widht of children 
+                                 therefore we need to set width*/
+  /*animations */
+  transition-timing-function: ease-in;
+  transition: all 0.7s;
+}
+.nav-bar {
+  background-color: #111;
+}
+.nav-logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav-avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
