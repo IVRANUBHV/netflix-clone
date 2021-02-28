@@ -31,7 +31,8 @@ function Banner() {
         backgroundImage: `url("${base_url}${movie?.backdrop_path}"
 
               )`,
-        backgroundPosition: "center center",
+        backgroundPosition: "50% 3%",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="banner-content">
@@ -49,10 +50,7 @@ function Banner() {
           {trauncate(movie?.overview, 200)}
         </h1>
       </div>
-      {/* only to make nicer 
-          adds the blur effect
-          BEST ONE
-      */}
+
       <div className="fade-bottom"></div>
     </header>
   );
